@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalho para AP3</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome fontes e Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!--Botão iniciar questiobário--> -->
+    <div class="start_btn"><button>Inicie o Quiz</button></div>
+    
+    <!-- Informação do questionário -->
+    <div class="info_box">
+        <div class="info-title"><span>Regras Básicas</span></div>
+        <div class="info-list">
+            <div class="info">Trabalho de Práticas de Programação em Sistemas Web.</div>
+            <div class="info">Avaliaçõa (AP3)</div>
+            <div class="info">1. Você terá apenas <span>15 segundos</span> por questão.</div>
+            <div class="info">2. Depois de selecionar sua resposta, ela não pode ser desfeita.</div>
+            <div class="info">3. Você receberá pontos com base em suas respostas corretas, participe e tenha um bom quiz.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Sair do Quiz</button>
+            <button class="restart">Continuar</button>
+        </div>
+    </div>
+
+    <!-- Quiz -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Teste de quiz</div>
+            <div class="timer">
+                <div class="time_left_txt">Tempo Restante</div>
+                <div class="timer_sec">15</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- Aqui esta uma pergunta em JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- opções em JavaScript -->
+            </div>
+        </section>
+
+        <!-- Caixa de questionário -->
+        <footer>
+            <div class="total_que">
+                <!-- numero de contagem JavaScript -->
+            </div>
+            <button class="next_btn">Próxima Questão</button>
+        </footer>
+    </div>
+
+    <!-- Resultado -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Você completou o Quiz!</div>
+        <div class="score_text">
+            <!-- Resultado da pontuação JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Repetir Quiz</button>
+            <button class="quit">Sair do Quiz</button>
+        </div>
+    </div>
+
+    <!-- Perguntas e opções -->
+    <script src="js/questoes.js"></script>
+
+    <!-- Codigos de testes -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>
+</html>
